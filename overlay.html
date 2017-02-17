@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://trello.com/power-ups/power-up.css">
+  <link rel="stylesheet" href="./css/overlay.css">
+  <script src="https://trello.com/power-ups/power-up.min.js"></script>
+</head>
+
+<body>
+  <div id="content">
+    <h2>Add a Dynamic Badge</h2>
+    <hr/>
+
+    <div style="display: flex; just">
+      <div>
+        <div>
+          <input id="json-url" placeholder="URL to your JSON" />
+        </div>
+        <div>
+          <input id="json-path" placeholder="Path to value" />
+        </div>
+      </div>
+
+      <div>
+        <div id="json-data">empty</div>
+      </div>
+    </div>
+
+    <button id="add-to-card" class="mod-primary">Add to card</button>
+  </div>
+  <script src="./js/overlay.js"></script>
+</body>
+
+</html>

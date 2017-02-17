@@ -1,0 +1,20 @@
+{
+  "name": "Flappy Taco",
+  "description": "It's like flappy bird, but with Taco!",
+  "details": "It's like flappy bird, but with Taco!",
+  "icon": {
+    "url": "./images/taco.png"
+  },
+  "author": "Khanh Nguyen",
+  "capabilities": [
+    "board-buttons"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}
